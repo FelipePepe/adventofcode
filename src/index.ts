@@ -13,6 +13,10 @@ import { inputDay4 } from "./day_4/input";
 import { CountValidPassports_First } from "./day_4";
 import { CountValidPassports_Second } from "./day_4/index2";
 
+import { inputDay5 } from "./day_5/input";
+import { CalculateRealSeat_First } from "./day_5";
+import { CalculateRealSeat_Second } from "./day_5/index2";
+
 //CalculatePuzzleDay1_First(inputDay1);
 //CalculatePuzzleDay1_Second(inputDay1);
 
@@ -28,4 +32,7 @@ import { CountValidPassports_Second } from "./day_4/index2";
 // );
 
 //console.log(CountValidPassports_First(inputDay4));
-console.log(CountValidPassports_Second(inputDay4));
+//console.log(CountValidPassports_Second(inputDay4));
+
+console.log(CalculateRealSeat_First(inputDay5));
+console.log(CalculateRealSeat_Second(inputDay5));
